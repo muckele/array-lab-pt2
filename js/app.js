@@ -199,7 +199,13 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+let total = 0
 
+numArrays.forEach(innerArray => {
+  innerArray.forEach(num => {
+    total += num
+  })
+})
 
 
 console.log('Exercise 15 Result:\n', typeof total !== 'undefined' ? total : undefined)
